@@ -114,7 +114,7 @@ body {
     color: var(--on-background);
     font-size: var(--body-3);
     /*overflow: hidden;*/
-    height: 135vh;
+    height: 118vh;
 }
 
 :focus-visible {
@@ -927,3 +927,11 @@ RESPONSIVE FOR LARGE THAN 1200PX SCREEN
         grid-template-columns: repeat(4, 1fr);
       }
     }
+    .highlight-list {
+      gap: 20px;
+      display: grid;
+  }
+  .card-sm {
+    border-radius: var(--radius-16);
+    padding: 16px;
+}
