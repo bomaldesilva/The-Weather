@@ -114,7 +114,7 @@ body {
     color: var(--on-background);
     font-size: var(--body-3);
     /*overflow: hidden;*/
-    height: 118vh;
+    height: 113vh;
 }
 
 :focus-visible {
